@@ -1,0 +1,28 @@
+##Arquivo com todos os imports do projeto##
+
+--Adiciona express
+yarn add express
+
+--Adiciona morgan (Controlador de LOG da aplicação)
+yarn add morgan
+
+--Adiciona mongoose (Banco de dados MONGO)
+yarn add mongoose
+
+--Adiciona multer (Precisamos para receber requisições que tragam arquivos "file")
+yarn add multer
+
+--Adiciona nodemon (Sobre automaticamente cada alteração JS)
+yarn add nodemon -D
+
+--Aidicona multer S3 para subir imagens no S3
+yarn add multer-s3
+
+--Adiciona sdk do S3
+yarn add aws-sdk
+
+--Adiciona dotenv (Permite que o node veja as nossas variáveis de ambiente)
+yarn add dotenv
+
+--Adicionar cors
+yarn add cors
